@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#graph {
+    height: 400px;
+    min-width: 310px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#menu a{
+	cursor: pointer;
+	padding:1em;
+}
+</style>
+
+<script src="https://code.highcharts.com/highcharts-3d.js"></script>
+
+<script data-main="js/app" src="js/require.js"></script>
+
+</head>
+<body>
+
+<div id="graph" style="height: 550px"></div>
+
+<div id="menu" style="text-align:center">
+	<a href="#" class="x_y">Price vs Registration Year</a>
+	<a href="#" class="x_z">Price vs Milage</a>
+	<a href="#" class="y_z">Milage vs Registration Year</a>
+</div>
+
+</body>
+</html>
